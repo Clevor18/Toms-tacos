@@ -1,0 +1,132 @@
+/* Common to all breakpoints */
+
+body {
+  background-color: #ffb77c;
+}
+
+/* carousel-caption header*/
+.carousel-caption h1{
+	font-size: 3em;
+	color: #fb3846 ;
+	padding-bottom: 0.5em;
+	font-family: "aleobold", serif;
+
+}
+/* carousel-writing*/
+.carousel-caption p {
+	padding-bottom: 0.5em;
+	font-size: 1em;
+	font-family: "aleoregular", sans serif;
+	color: #000;
+}
+/* index collum header*/
+.colstyeh2 {
+	font-size: 2em;
+	padding-bottom: 0.5em;
+	font-family: "aleobold", serif;
+	color: #fb3846;
+
+}
+/*collum paragraph*/
+.colp {
+	font-size: 1.3em;
+	font-family: "aleoregular" , sans-serif;
+	line-height: 1.5;
+}
+.colp1 {
+
+	font-size: 1.5em;
+	font-family: "aleoregular" , sans-serif;
+	line-height: 1;
+	text-decoration:underline;
+
+}
+.headt  {
+	font-size: 2em;
+	font-family: 'aleobold', serif;
+	color: #fb3846;
+
+
+}
+ol li {
+	padding: 0.3em;
+}
+
+.whiteBox {
+  background-color: #ffe8d4;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: #ff9339 solid 0.2em;
+
+
+}
+#party {
+  font-family: 'aleobold', impact;
+  color: #fb3846;
+  font-size: 5em;
+}
+.formH {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-size: 1.3em;
+  font-family: 'aleoregular' , serif;
+}
+@media (min-width: 768px) {
+	.resize {
+		font-size: 3em;
+	}
+}
+@media (max-width: 767px) {
+	.carousel-caption .resize {
+		font-size: 2.5em
+	}
+	.carousel-caption img {
+		width: 80%;
+		height: 80%
+	}
+	#party {
+		font-size: 3em;
+	}
+}
+.disclamer {
+	color:#fb3846;
+}
+.btn-default {
+  border: thick solid #ff9339;
+  background-color: #ffe8d4;
+  font-family: "aleobold" , impact;
+  color: #fb3846;
+}
+.btn-default:hover {
+  border: thick solid #ff9339;
+  background-color: #ffe8d4;
+  font-family: "aleobold" , impact;
+  color: #fb3846;
+  font-size: 2em;
+}
+.btn-info {
+  font-family: "aleobold", impact;
+  color: #ffe8d4;
+}
+.btn-danger {
+  border: thick solid #ff9339;
+  background-color: #ffe8d4;
+  font-family: "aleobold" , impact;
+  color: #fb3846;
+}
+.btn-danger:hover {
+  border: thick solid #ff3856;
+  background-color: #ffe8d4;
+  font-family: "aleobold" , impact;
+  color: #ff9339;
+}
+.btn-submit {
+  border: thin solid #ff3856;
+  background-color: #ff9339;
+  font-family: "aleobold", impact;
+  color: #ffe8d4
+}
+.navbar-bottom {
+  border: 0.2em solid #ff9339;
+  background-color: #ffe8d4
+}
