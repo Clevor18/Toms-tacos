@@ -130,3 +130,64 @@ ol li {
   border: 0.2em solid #ff9339;
   background-color: #ffe8d4
 }
+.linkgHome:link {
+	color: #000000;
+	text-decoration:none;
+
+}
+.linkgHome:hover {
+	color:	#ff3856;
+	text-decoration: underline;
+}
+.linkgHome:visited {
+	color:	#ff3856;
+	text-decoration: underline;
+}
+.linkgHome:active {
+	text-decoration:none;	
+	color:#000000;
+	
+}
+.btn-info:active {
+	Background-color: #000000;
+	color: #ff3856;
+	border: thin solid 	#ff3856;
+	
+}
+.btn-info:visited {
+	Background-color: #000000;
+	color: #ff3856;
+	border: thin solid 	#ff3856;
+}
+#count {
+	color: #ff3856;
+	font-weight: bold;
+	
+}
+.btn-total {
+  border: thick solid #ff9339;
+  background-color: #ffe8d4;
+  font-family: "aleobold" , impact;
+  font-weight: bold;
+  color: #fb3846;
+}
+.btn-total:hover {
+  border: thick solid #fb3846;
+  background-color: #ffe8d4;
+  font-family: "aleobold" , impact;
+  font-weight: bold;
+  color: #ff9339;
+}
+.btn-totl:visited {
+	color: #ff9339;
+	border: thick solid #fd3846;
+	
+}
+.btn-danger:focus {
+	border: thick solid #fb3846;
+  background-color: #ffe8d4;
+  font-family: "aleobold" , impact;
+  font-weight: bold;
+  color: #ff9339;
+}
+	

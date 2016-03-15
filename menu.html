@@ -10,30 +10,30 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-  <!--Favicon icons -->
-    <!--ios and osx -->
-    <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon-180x180.png">
+  <!--favicons and touch icons-->
+    <!--ios and osx-->
+ 	<link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon-180x180.png">
     <!--android-->
     <link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="img/icons/favicon-194x194.png" sizes="194x194">
-    <link rel="icon" type="image/png" href="img/icons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16">
-    <!--safari-->
-    <link rel="manifest" href="img/icons/manifest.json">
-    <!-- windows -->
+	<link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="img/icons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/icons/manifest.json">
+    <!--safari pin-->
     <link rel="mask-icon" href="img/icons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <!--windows-->
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="img/icons/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
 	<!-- Style sheet-->
   	<link href="css/styles-responsive.css" rel="stylesheet">
   	<!--link to web fonts-->
@@ -73,7 +73,7 @@
     <thead>
       <tr>
 
-        <th class="headt">Entre</th>
+        <th class="headt">Entree</th>
         <th class="headt">Price</th>
         <th class="headt">Order</th>
       </tr>
@@ -225,6 +225,18 @@
         <td class="dropdown"><a class="btn btn-danger btn-sm"
           data-toggle="dropdown" href="#"> Add </a></td>
       </tr>
+      <tr>
+        <td>Total</td>
+        <td>Number of Entree selected </td>
+        <td><strong><p id="count"> </p></strong></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="dropdown"><a class="btn btn-total btn-sm"
+          data-toggle="dropdown" href="#"> order total </a></td>
+      </tr>
+      
     </tbody>
 
   </table>
@@ -233,8 +245,10 @@
     <li><a tabindex="-1" href="#" class="payLink">Pay</a></li>
     <li><a tabindex="-1" href="#" class="delLink">Delete</a></li>
   </ul>
+  
 </div>
 </div>
+
 </main>
 <footer>
   <div class="container">
@@ -250,5 +264,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
 </body>
 </html>
