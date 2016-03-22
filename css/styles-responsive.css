@@ -144,15 +144,15 @@ ol li {
 	text-decoration: underline;
 }
 .linkgHome:active {
-	text-decoration:none;	
+	text-decoration:none;
 	color:#000000;
-	
+
 }
 .btn-info:active {
 	Background-color: #000000;
 	color: #ff3856;
 	border: thin solid 	#ff3856;
-	
+
 }
 .btn-info:visited {
 	Background-color: #000000;
@@ -162,7 +162,7 @@ ol li {
 #count {
 	color: #ff3856;
 	font-weight: bold;
-	
+
 }
 .btn-total {
   border: thick solid #ff9339;
@@ -181,7 +181,7 @@ ol li {
 .btn-totl:visited {
 	color: #ff9339;
 	border: thick solid #fd3846;
-	
+
 }
 .btn-danger:focus {
 	border: thick solid #fb3846;
@@ -190,4 +190,190 @@ ol li {
   font-weight: bold;
   color: #ff9339;
 }
-	
+.navbar-inverse .navbar-brand {
+  color: #fb3846;
+  font-family: "aleobold", impact;
+  font-size: 1.5em;
+}
+  .navbar-inverse .navbar-brand:hover,
+  .navbar-inverse .navbar-brand:focus {
+    color: #ff9339;
+    background-color: transparent;
+}
+.navbar-inverse {
+  background-color: #ffe8d4;
+  border: solid thick #ff9339;
+
+}
+.navbar-inverse .navbar-text {
+  color: #fb3846;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fb3846;
+  font-family: "aleobold" , impact;
+  font-size: 1.5em;
+
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ff9339 ;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #000;
+  background-color: #fb2846;
+}
+td {
+  font-family: "aleobold";
+}
+.table-hover > tbody > tr:hover {
+  background-color: #ff9339;
+}
+/*Footer*/
+.footer-distributed{
+	background-color: #ffe8d4;
+	border: thick solid #ff9339;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px;
+	font-family:"aleobold";
+	text-align: left;
+
+	padding: 50px 60px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed .footer-links{
+	color:  #fb3846;
+	font-size: 1.5em;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	font-family: "aleobold";
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #000000;
+	font-size: 1em;
+	font-family: "aleobold"
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/* Footer right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+/* The search form */
+
+.footer-distributed form{
+	position: relative;
+}
+
+.footer-distributed form input{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color: #ffe8d4 ;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: thick solid #ff9339;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 500px;
+	padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus{
+	outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+	color:  #fb3846;
+}
+
+.footer-distributed form input::-moz-placeholder {
+	opacity: 1;
+	color:  #fb3846;
+}
+
+.footer-distributed form input:-ms-input-placeholder{
+	color:  #fb3846;
+}
+
+/* The magnify glass icon */
+
+.footer-distributed form i{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 16px;
+	right: 18px;
+
+	color: #fb3846;
+	font-size: 18px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed form input{
+		width: 300px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+		text-align: center;
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 20px;
+	}
+
+	.footer-distributed form input{
+		width: 100%;
+	}
+
+}

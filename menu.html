@@ -8,7 +8,7 @@
     <title>Menu</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!--favicons and touch icons-->
     <!--ios and osx-->
@@ -40,6 +40,8 @@
     <link rel="stylesheet" href="css/fonts/stylesheet.css">
    	<!-- normanalize -->
     <link rel="stylesheet" href="css/normalize.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   	<!-- reset --->
     <link rel="stylesheet" href="css/reset.css">
 </head>
@@ -236,7 +238,7 @@
         <td class="dropdown"><a class="btn btn-total btn-sm"
           data-toggle="dropdown" href="#"> order total </a></td>
       </tr>
-      
+
     </tbody>
 
   </table>
@@ -245,21 +247,38 @@
     <li><a tabindex="-1" href="#" class="payLink">Pay</a></li>
     <li><a tabindex="-1" href="#" class="delLink">Delete</a></li>
   </ul>
-  
+
 </div>
 </div>
 
 </main>
-<footer>
-  <div class="container">
-  <div class="nav navbar-default navbar-bottom">
-    <div class="container">
-        <p> Website created by Trevor </p>
+<footer class="footer-distributed">
 
-    </div>
+  <div class="footer-left">
+
+    <p class="footer-links">
+      <a href="index.html">Home</a>
+      ·
+      <a href="menu.html">Menu</a>
+      ·
+      <a href="catering.html">Catering</a>
+    </p>
+
+    <p class="footer-company-name">Toms Tacos &copy; 2016</p>
+
   </div>
-</div>
- </footer>
+
+  <div class="footer-right">
+
+    <form method="get" action="#">
+      <input placeholder="Search our website" name="search" />
+      <i class="fa fa-search"></i>
+    </form>
+
+  </div>
+
+</footer>
+
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
