@@ -1,7 +1,7 @@
 /* Common to all breakpoints */
 
 body {
-  background-color: #ffb77c;
+  background-color: grey;
 }
 
 /* carousel-caption header*/
@@ -242,8 +242,8 @@ td {
 	font-family:"aleobold";
 	text-align: left;
 
-	padding: 50px 60px;
-	margin-top: 80px;
+	padding: 20px 30px;
+	margin-top: 50px;
 	overflow: hidden;
 }
 
@@ -376,4 +376,13 @@ td {
 		width: 100%;
 	}
 
+}
+.btn-hide {
+  border: thick solid #ff9339;
+  background-color: #ffe8d4;
+  font-family: "aleobold" , impact;
+  color: #fb3846;
+}
+.modal-header {
+  background-color: red;
 }
